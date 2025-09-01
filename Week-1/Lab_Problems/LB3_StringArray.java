@@ -71,5 +71,7 @@ class LB3_StringArray {
         String[][] table = wordLengthTable(words);
 
         displayTable(table);
+
+        sc.close();
     }
 }

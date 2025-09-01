@@ -69,5 +69,7 @@ public class LB4_LongestWord {
 
         System.out.println("Shortest word: " + result[0]);
         System.out.println("Longest word: " + result[1]);
+
+        sc.close();
     }
 }

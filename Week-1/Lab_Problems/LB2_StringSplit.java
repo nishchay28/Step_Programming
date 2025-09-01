@@ -60,5 +60,7 @@ class LB2_StringSplit {
 
         boolean match = compareArrays(manual, builtin);
         System.out.println("\nDo both methods produce the same result? " + match);
+
+        sc.close();
     }
 }

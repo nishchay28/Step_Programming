@@ -42,5 +42,7 @@ class LB6_CharacterType {
 
         String[][] table = analyzeCharacters(input);
         displayTable(table);
+
+        sc.close();
     }
 }

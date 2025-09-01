@@ -48,5 +48,7 @@ public class LB5_VowelsCounter {
         int[] result = countVowelsAndConsonants(input);
         System.out.println("Vowels count: " + result[0]);
         System.out.println("Consonants count: " + result[1]);
+
+        sc.close();
     }
 }

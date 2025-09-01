@@ -23,5 +23,7 @@ public class LB1_Stringlength {
 
         System.out.println("Length using custom method: " + customLength);
         System.out.println("Length using built-in method: " + builtInLength);
+    
+        sc.close();
     }
 }
