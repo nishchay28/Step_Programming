@@ -1,11 +1,11 @@
-public class Problem1 {
+public class PP1_CarMethod {
     String brand;
     String model;
     int year;
     String color;
     boolean isRunning;
 
-    public Problem1(String brand,String model, int year, String color,boolean isRunning){
+    public PP1_CarMethod(String brand,String model, int year, String color,boolean isRunning){
         this.brand = brand;
         this.model =model;
         this.year = year;
@@ -33,7 +33,7 @@ public class Problem1 {
     }
 
     public static void main(String[] args) {
-        Problem1 c1 = new Problem1("Suzuki", "VDI+" , 2022 , "Black" , true);
+        PP1_CarMethod c1 = new PP1_CarMethod("Suzuki", "VDI+" , 2022 , "Black" , true);
         c1.startEngine();
         c1.disp();
         c1.getAge();
